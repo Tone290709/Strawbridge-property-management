@@ -134,6 +134,9 @@ section{position:relative;z-index:1;padding:clamp(60px,10vh,110px) clamp(20px,6v
 
 /* FOOTER */
 footer{border-top:1px solid var(--line);padding:clamp(36px,6vh,56px) clamp(20px,6vw,80px);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;position:relative;z-index:1}
+.site-credit{text-align:center;padding:14px clamp(20px,6vw,80px) clamp(24px,4vh,40px);font-family:'Space Mono',monospace;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);position:relative;z-index:1}
+.site-credit a{color:var(--muted);text-decoration:underline;text-underline-offset:3px;transition:color .15s}
+.site-credit a:hover{color:var(--gold)}
 .footer-brand{font-family:'Cormorant Garamond',serif;font-size:.95rem;font-weight:700;color:#fff}
 .footer-brand small{font-family:'Space Mono',monospace;font-size:.58rem;color:var(--muted);display:block;letter-spacing:.14em;text-transform:uppercase;margin-top:2px}
 .footer-info{font-family:'Space Mono',monospace;font-size:.6rem;color:var(--muted);letter-spacing:.07em;text-align:right;line-height:1.95}
@@ -659,6 +662,7 @@ footer{border-top:1px solid var(--line);padding:clamp(36px,6vh,56px) clamp(20px,
   <div class="footer-brand">Strawbridge Property <small>Carpentry & Maintenance</small></div>
   <div class="footer-info">Isle of Sheppey · ME12<br>07730 000 211 · bstrawbridge@live.co.uk<br>All enquiries responded to within 24hrs<br><span style="margin-top:6px;display:block">© 2026 Strawbridge Property · <a href="#" onclick="document.getElementById('privacy-modal').style.display='flex';return false;" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">Privacy Policy</a></span></div>
 </footer>
+<div class="site-credit">Site by <a href="https://jsdigital.dev" target="_blank" rel="noopener">JSdigital</a></div>
 
 <!-- Privacy Policy Modal -->
 <div id="privacy-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:99999;align-items:center;justify-content:center;padding:20px">
